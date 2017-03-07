@@ -1,0 +1,4 @@
+Projeto cirado para:
+- Salvar link do youtube para cada video da base de dados;
+- Renomear os trailers de acordo com seus ids na base de dados;
+- Mapear e salvar as cores dos trailers na base de dados.

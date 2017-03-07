@@ -1,0 +1,1 @@
+O arquivo movielens.sql consiste na base de dados movielens com quase 2000 filmes. Nele contém, os 1000 filmes trabalhados no projeto e outros mais.
