@@ -31,6 +31,8 @@ A instalação e configuração do [Maven ](https://maven.apache.org/)também é
 
 3. API Google
 
-Para fazer login na aplicação é necessário configurar o CLIENT_ID, o CLIENT_SECRET, o CALLBACK_URI. Essas constantes estão na classe JAVA MovieRecommender\src\main\java\br\com\jonjts\tcc\moviesrecommender\oauth\GoogleAuthHelper.java. Para ter os dados dessas contantes, deve-se criar uma aplicação no seu [Google Console](https://console.developers.google.com), você pode ler mais sobre isso [aqui](https://developers.google.com/identity/sign-in/web/devconsole-project).
+Para fazer login na aplicação é necessário configurar o CLIENT_ID, o CLIENT_SECRET, e o CALLBACK_URI. Essas constantes estão na classe JAVA MovieRecommender\src\main\java\br\com\jonjts\tcc\moviesrecommender\oauth\GoogleAuthHelper.java. Para ter os dados dessas contantes, deve-se criar uma aplicação no seu [Google Console](https://console.developers.google.com), você pode ler mais sobre isso [aqui](https://developers.google.com/identity/sign-in/web/devconsole-project).
 
 ### The end ###
+
+Pronto, após instalar e configurar tudo, abra a IDE que você escolheu, selecione o projeto \MovieRecommender e execute-o utilizando o seu Tomcat.
