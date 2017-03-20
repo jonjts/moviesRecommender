@@ -10,7 +10,14 @@ Esse README contem instruções para a execução do projeto TCC apelidado de Mo
 
 ### O que eu preciso para executar a aplicação de recomendação ###
 
-### Por onde começar para executar a aplicação de recomendação ###
+* [JDK 7](http://www.oracle.com/technetwork/pt/java/javase/downloads/jdk7-downloads-1880260.html)
+* [MAVEN](https://maven.apache.org/download.cgi)
+* [MySQLServer](https://dev.mysql.com/downloads/workbench/)
+* [intellij](https://www.jetbrains.com/idea/download/)
+* [Tomcat 7](https://tomcat.apache.org/download-70.cgi)
+* [Google API](https://console.developers.google.com/apis)
+
+### Por onde começar ###
 
 1. Base de dados
 
@@ -24,8 +31,6 @@ A instalação e configuração do [Maven ](https://maven.apache.org/)também é
 
 3. API Google
 
+Para fazer login na aplicação é necessário configurar o CLIENT_ID, o CLIENT_SECRET, o CALLBACK_URI. Essas constantes estão na classe JAVA MovieRecommender\src\main\java\br\com\jonjts\tcc\moviesrecommender\oauth\GoogleAuthHelper.java. Para ter os dados dessas contantes, deve-se criar uma aplicação no seu [Google Console](https://console.developers.google.com), você pode ler mais sobre isso [aqui](https://developers.google.com/identity/sign-in/web/devconsole-project).
 
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### The end ###
