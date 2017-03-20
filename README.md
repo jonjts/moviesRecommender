@@ -2,26 +2,28 @@
 
 Esse README contem instruções para a execução do projeto TCC apelidado de MoviesRecommender.
 
-### What is this repository for? ###
+### O que contém nesse repositório ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* Aplicação JAVA capaz de buscar e baixar trailers de filmes no Youtube
+* Backup da base de dados para execução da aplicação web 
+* Aplicação web para fazer as recomendações de filmes
 
-### How do I get set up? ###
+### O que eu preciso para executar a aplicação de recomendação ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+### Por onde começar para executar a aplicação de recomendação ###
 
-### Contribution guidelines ###
+1. Base de dados
 
-* Writing tests
-* Code review
-* Other guidelines
+O primeiro passo para executar a aplicação de recomendação é instalar o [MySQLServer](https://dev.mysql.com/downloads/workbench/), criar uma base de dados de nome movie_lens e rodar os scripts de carga que estão em MovieRecommender\etc\mysqlServer\carga .
+
+2. Ambiente para desenvolvimento
+
+Os projetos desse repositório foram desenvolvidos e testados utilizando o [intellij](https://www.jetbrains.com/idea/download/), mas qualquer IDE com suporte ao Tomcat7/8 pode executar a aplicação. Caso não utilize o intellij, recomendo utilizar o NetBeans, ele é bem simples e fácil de configurar.
+
+A instalação e configuração do [Maven ](https://maven.apache.org/)também é importante, sem ele não será possível rodar nada. Você pode usar [esse](https://www.mkyong.com/maven/how-to-install-maven-in-windows/) tutorial para instalação e configuração do Maven.
+
+3. API Google
+
 
 ### Who do I talk to? ###
 
