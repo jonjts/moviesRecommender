@@ -36,3 +36,5 @@ Para fazer login na aplicação é necessário configurar o CLIENT_ID, o CLIENT_
 ### The end ###
 
 Pronto, após instalar e configurar tudo, abra a IDE que você escolheu, selecione o projeto \MovieRecommender e execute-o utilizando o seu Tomcat.
+
+Caso queira, você pode ver a aplicação em ação [aqui](http://movies-jonjts.rhcloud.com/login.jsp).
